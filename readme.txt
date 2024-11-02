@@ -1,16 +1,20 @@
-This only works on firefox
-so make sure to install firefox and set it as you're default browser then run this script
-also make sure to do 'pip install instapy' in the terminal
+This requires InstaPy to work, if you don't already have it installed, run: `pip install instapy`
 
-How this bot works(main.py) :
-It follows small accounts (which are more active and interactive than large accounts)
-it only looks for the accounts that have specific tags that you will add into the script
-just go to line 10 and edit the tags as you like
-and then comments and likes their posts.
-And of course as usual
-they will follow you back
-and it keeps doing it
+THIS IS FOR EDUCATIONAL PERPOSES ONLY, IF YOU INDEND ON USING THIS FOR THE WRONG PURPOSE I WILL NOT BE RESPONSIBlE FOR YOUR ACTIONS, YOU WILL BE DOING SO AT YOUR OWN RISK.
 
-For the unfollowing bot
-uh it basically just unfollows everyone rapidly
-simple
+I have only tested this on Firefox, Feel free to test it on other browsers.
+
+`InstaBot:`
+Run the Script: Save the code in a Python file (e.g., instabot.py) and execute it using python instabot.py.
+Monitor: Watch your account for any restrictions or warnings from Instagram.
+Important Notes
+Ensure your account isn't private.
+Use the bot responsibly to avoid getting banned.
+
+`InstaUnfollow`
+Key Components:
+`amount`: Specifies how many users to unfollow (`you can change this as needed`).
+`allFollowing`: If set to `True`, it will unfollow all the users you're currently following.
+`sleep_delay`: Introduces a pause between actions, making it less likely to trigger Instagram's rate limits.
+
+Enjoy :)
