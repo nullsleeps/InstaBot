@@ -1,10 +1,10 @@
 from instapy import InstaPy
 
-#Enter your iInstagram Login Details
+# Enter Your Instagram Login Details
 session = InstaPy(username="your_username", password="your_password")
 session.login()
 
-
+# Set the max follower limit
 session.set_relationship_bounds(enabled=True, max_followers=300)
 
 # Enable liking and following
